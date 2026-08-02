@@ -1,0 +1,9 @@
+{
+  "repo": "block/buzz",
+  "cask": "buzz",
+  "tag_regex": "^desktop-v(\\d+(?:\\.\\d+)+)$",
+  "assets": {
+    "arm": "Buzz_{version}_aarch64.dmg",
+    "intel": "Buzz_{version}_x64.dmg"
+  }
+}
