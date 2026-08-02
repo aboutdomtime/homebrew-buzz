@@ -16,7 +16,7 @@ cask "buzz" do
     regex(/^desktop-v?(\d+(?:\.\d+)+)$/i)
   end
 
-  depends_on macos: true
+  depends_on macos: :catalina
 
   app "Buzz.app"
 end
