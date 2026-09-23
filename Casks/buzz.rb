@@ -1,9 +1,9 @@
 cask "buzz" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.5.23"
-  sha256 arm:   "9197dde29a09ade77f56677e07cb4d6a9d7d1a6a157d7212f0a050144059c5b2",
-         intel: "dd0abf673a68e1aad59999194208dd7c144f4718742a997cea7d9c27b7bd016c"
+  version "0.5.24"
+  sha256 arm:   "d77adc83bc4f7d32c59d0517a082a7951f4a345867f629383bdf29e325aa5e24",
+         intel: "0883783e3cae4cc200fbb8db7412a047695526afefdc8e44f40ff1a93507909a"
 
   url "https://github.com/block/buzz/releases/download/desktop-v#{version}/Buzz_#{version}_#{arch}.dmg"
   name "Buzz"
